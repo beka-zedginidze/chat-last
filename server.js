@@ -141,7 +141,7 @@ app.use((req, res, next) => {
 app.use('/', require('./routes/index'));
 app.use('/user', require('./routes/user'));
 
-const PORT = process.env.PORT || 9999;
+const PORT = process.env.PORT || 7777;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 

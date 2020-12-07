@@ -19,7 +19,7 @@ router.get('/register', (req, res) => res.render('register'));
 // router.get('/dashboard', (req, res) => res.render('dashboard'));
 router.get('/index', (req, res) => res.render('index'));
 //welcome
-router.get('/welcome', (req, res) => res.render('welcome'))
+router.get('/welcome', (req, res) => res.render('welcome'));
 //register handle
 router.post('/register', urlencodedParser ,(req, res) => {
     // res.send('welcome, ' + req.body.name)
